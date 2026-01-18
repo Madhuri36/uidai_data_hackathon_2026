@@ -1,0 +1,90 @@
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# -------------------------------
+# Jupyter Notebook
+# -------------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -------------------------------
+# Data files (DO NOT commit raw data)
+# -------------------------------
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+# If you want to keep folder but not data:
+# data/*
+# !data/.gitkeep
+
+# -------------------------------
+# Figures / Plots (optional)
+# -------------------------------
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Uncomment if you want to KEEP final figures
+# !figures/final/
+
+# -------------------------------
+# Logs & temp files
+# -------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# LaTeX / Overleaf
+# -------------------------------
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# -------------------------------
+# IDEs / Editors
+# -------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------------
+# OS-specific
+# -------------------------------
+.DS_Store
+desktop.ini
